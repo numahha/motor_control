@@ -9,7 +9,7 @@
 * 粘性摩擦：無負荷ステップ応答（電流-角速度）の傾き（つまり定常ゲイン）の測定値に、トルク定数のカタログ値（2.1Nm/A）をかける。
 * クーロン摩擦：無負荷ステップ応答（電流-角速度）の切片に、トルク定数のカタログ値（2.1Nm/A）をかける。
 * モータ駆動トルクの係数：トルク定数のカタログ値（2.1Nm/A）に、サーボモータの指令電圧-出力電流関係（つまり0.1倍）をかける。
-* モータ駆動トルクの最大値：指令電圧±3.5V
+* モータ駆動トルクの最大値：指令電圧±3.0V
 
 ## 強化学習
 `rl_simulation`のディレクトリを参照
@@ -35,7 +35,7 @@ python3 test_py.py
 * ~~上の予想に加えて、モータの特性の理解やカタログ値の使い方を間違えているかも？~~
 * それとは別に、なんか相図がガタついている（なぜ？）
 
-![movie](https://github.com/numahha/motor_control/blob/master/D2_inverted_pendulum/movie.gif)
+![movie](https://github.com/numahha/motor_control/blob/master/D2_inverted_pendulum/pendulum.gif)
 
 ## メモ
 mpg4からgifに変換するには、
